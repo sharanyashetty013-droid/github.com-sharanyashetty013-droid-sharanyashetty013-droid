@@ -73,7 +73,7 @@
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="0.6s" repeatCount="indefinite"/>
 
-    <!-- long hair (back) -->
+    <!-- long red hair (back) -->
     <g>
       <rect x="-20" y="-2" width="40" height="70" fill="#3a2214"/>
       <rect x="-20" y="60" width="12" height="8" fill="#4b2e1a"/>
