@@ -1,10 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" shape-rendering="crispEdges">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 260" width="900" height="260" shape-rendering="crispEdges">
   <defs>
     <clipPath id="typeclip">
-      <rect x="290" y="50" height="110" width="560">
-        <animate attributeName="width" values="0;560;560;0" keyTimes="0;0.55;0.92;1" dur="7s" repeatCount="indefinite"/>
+      <rect x="290" y="50" height="110" width="470">
+        <animate attributeName="width" values="0;470;470;0" keyTimes="0;0.55;0.92;1" dur="7s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
+    <g id="heart">
+      <rect x="3" y="0" width="6" height="3" fill="#e63946"/><rect x="12" y="0" width="6" height="3" fill="#e63946"/>
+      <rect x="0" y="3" width="21" height="6" fill="#e63946"/><rect x="3" y="9" width="15" height="3" fill="#e63946"/>
+      <rect x="6" y="12" width="9" height="3" fill="#e63946"/><rect x="9" y="15" width="3" height="3" fill="#e63946"/>
+      <rect x="3" y="3" width="3" height="3" fill="#ffb3ba"/>
+    </g>
+    <g id="diamond">
+      <rect width="16" height="16" fill="#7f7f7f"/>
+      <rect x="2" y="2" width="4" height="4" fill="#4dd0e1"/><rect x="9" y="3" width="4" height="4" fill="#4dd0e1"/>
+      <rect x="4" y="9" width="4" height="4" fill="#4dd0e1"/><rect x="11" y="10" width="3" height="3" fill="#4dd0e1"/>
+    </g>
+    <g id="coal">
+      <rect width="16" height="16" fill="#7f7f7f"/>
+      <rect x="2" y="2" width="4" height="4" fill="#222"/><rect x="9" y="3" width="4" height="4" fill="#222"/>
+      <rect x="4" y="9" width="4" height="4" fill="#222"/><rect x="11" y="10" width="3" height="3" fill="#222"/>
+    </g>
   </defs>
 
   <!-- sky -->
@@ -12,8 +28,8 @@
   <rect y="120" width="900" height="80" fill="#8fcbff"/>
 
   <!-- sun -->
-  <rect x="790" y="24" width="44" height="44" fill="#ffe66d"/>
-  <rect x="798" y="32" width="28" height="28" fill="#fff3a3"/>
+  <rect x="716" y="18" width="40" height="40" fill="#ffe66d"/>
+  <rect x="723" y="25" width="26" height="26" fill="#fff3a3"/>
 
   <!-- clouds -->
   <g fill="#ffffff" opacity="0.95">
@@ -27,19 +43,71 @@
     </g>
   </g>
 
+  <!-- HUD hearts -->
+  <use xlink:href="#heart" x="16" y="14"/><use xlink:href="#heart" x="42" y="14"/><use xlink:href="#heart" x="68" y="14"/>
+  <use xlink:href="#heart" x="94" y="14"/><use xlink:href="#heart" x="120" y="14"/>
+
   <!-- ground -->
   <rect y="200" width="900" height="16" fill="#5da130"/>
   <rect y="200" width="900" height="4" fill="#7bc043"/>
+  <g fill="#4a8a26">
+    <rect x="40" y="206" width="8" height="4"/><rect x="180" y="208" width="8" height="4"/>
+    <rect x="330" y="206" width="8" height="4"/><rect x="470" y="209" width="8" height="4"/>
+    <rect x="610" y="206" width="8" height="4"/><rect x="760" y="208" width="8" height="4"/>
+  </g>
   <rect y="216" width="900" height="44" fill="#866043"/>
   <g fill="#6f4e35">
     <rect x="30" y="224" width="16" height="16"/><rect x="120" y="240" width="16" height="16"/>
-    <rect x="260" y="226" width="16" height="16"/><rect x="380" y="242" width="16" height="16"/>
-    <rect x="510" y="224" width="16" height="16"/><rect x="640" y="238" width="16" height="16"/>
+    <rect x="260" y="226" width="16" height="16"/><rect x="390" y="242" width="16" height="16"/>
+    <rect x="530" y="224" width="16" height="16"/><rect x="650" y="240" width="16" height="16"/>
     <rect x="770" y="226" width="16" height="16"/><rect x="860" y="242" width="16" height="16"/>
   </g>
-  <g fill="#7f7f7f">
-    <rect x="80" y="232" width="12" height="12"/><rect x="330" y="236" width="12" height="12"/>
-    <rect x="580" y="230" width="12" height="12"/><rect x="820" y="234" width="12" height="12"/>
+  <!-- ores: diamond (cyan) and coal (black) -->
+  <use xlink:href="#diamond" x="200" y="228"/><use xlink:href="#diamond" x="470" y="236"/><use xlink:href="#diamond" x="700" y="230"/>
+  <use xlink:href="#coal" x="330" y="232"/><use xlink:href="#coal" x="600" y="238"/><use xlink:href="#coal" x="60" y="236"/><use xlink:href="#coal" x="820" y="236"/>
+
+  <!-- nether portal -->
+  <g>
+    <rect x="820" y="120" width="40" height="60" fill="#7b2cbf">
+      <animate attributeName="fill" values="#7b2cbf;#b061f0;#7b2cbf" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="828" y="128" width="8" height="24" fill="#c77dff" opacity="0.7">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="844" y="148" width="8" height="24" fill="#c77dff" opacity="0.7">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="800" y="100" width="20" height="100" fill="#1a0f2e"/>
+    <rect x="860" y="100" width="20" height="100" fill="#1a0f2e"/>
+    <rect x="820" y="100" width="40" height="20" fill="#1a0f2e"/>
+    <rect x="820" y="180" width="40" height="20" fill="#1a0f2e"/>
+    <rect x="804" y="110" width="6" height="6" fill="#3b2a5c"/><rect x="866" y="150" width="6" height="6" fill="#3b2a5c"/>
+    <rect x="832" y="104" width="6" height="6" fill="#3b2a5c"/><rect x="806" y="170" width="6" height="6" fill="#3b2a5c"/>
+    <!-- rising purple particles -->
+    <rect x="826" y="170" width="4" height="4" fill="#e0aaff">
+      <animate attributeName="y" values="172;110" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="842" y="170" width="4" height="4" fill="#e0aaff">
+      <animate attributeName="y" values="172;110" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="852" y="170" width="4" height="4" fill="#e0aaff">
+      <animate attributeName="y" values="172;110" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- torches (flicker) -->
+  <g>
+    <rect x="248" y="182" width="4" height="18" fill="#6b4a2b"/>
+    <rect x="246" y="174" width="8" height="8" fill="#ffb703">
+      <animate attributeName="fill" values="#ffb703;#ff7b00;#ffb703" dur="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="596" y="182" width="4" height="18" fill="#6b4a2b"/>
+    <rect x="594" y="174" width="8" height="8" fill="#ffb703">
+      <animate attributeName="fill" values="#ff7b00;#ffb703;#ff7b00" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
   <!-- scrolling scenery -->
@@ -48,23 +116,24 @@
       <rect x="0" y="152" width="16" height="48" fill="#6b4a2b"/>
       <rect x="-24" y="104" width="64" height="48" fill="#3f8f2e"/>
       <rect x="-8" y="88" width="32" height="16" fill="#4fa83b"/>
-      <animateTransform attributeName="transform" type="translate" values="960,0;-120,0" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g transform="translate(760,0)">
-      <rect x="0" y="152" width="16" height="48" fill="#6b4a2b"/>
-      <rect x="-24" y="104" width="64" height="48" fill="#3f8f2e"/>
-      <rect x="-8" y="88" width="32" height="16" fill="#4fa83b"/>
-      <animateTransform attributeName="transform" type="translate" values="960,0;-120,0" dur="12s" begin="-6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="960,0;-120,0" dur="14s" repeatCount="indefinite"/>
     </g>
     <g transform="translate(300,0)">
       <rect x="0" y="184" width="4" height="16" fill="#3f8f2e"/>
       <rect x="-4" y="176" width="12" height="8" fill="#e63946"/>
-      <animateTransform attributeName="transform" type="translate" values="960,0;-40,0" dur="8s" begin="-2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="960,0;-40,0" dur="9s" begin="-2s" repeatCount="indefinite"/>
     </g>
-    <g transform="translate(640,0)">
-      <rect x="0" y="184" width="4" height="16" fill="#3f8f2e"/>
-      <rect x="-4" y="176" width="12" height="8" fill="#ffd166"/>
-      <animateTransform attributeName="transform" type="translate" values="960,0;-40,0" dur="8s" begin="-6s" repeatCount="indefinite"/>
+    <!-- creeper -->
+    <g transform="translate(540,0)">
+      <rect x="4" y="170" width="12" height="20" fill="#3f9b34"/>
+      <rect x="0" y="190" width="8" height="10" fill="#2f7d29"/>
+      <rect x="12" y="190" width="8" height="10" fill="#2f7d29"/>
+      <rect x="0" y="150" width="20" height="20" fill="#4caf3f"/>
+      <rect x="2" y="152" width="4" height="4" fill="#2e7d32"/><rect x="14" y="160" width="4" height="4" fill="#2e7d32"/>
+      <rect x="4" y="156" width="4" height="4" fill="#111"/><rect x="12" y="156" width="4" height="4" fill="#111"/>
+      <rect x="8" y="160" width="4" height="8" fill="#111"/>
+      <rect x="4" y="164" width="4" height="4" fill="#111"/><rect x="12" y="164" width="4" height="4" fill="#111"/>
+      <animateTransform attributeName="transform" type="translate" values="960,0;-60,0" dur="16s" begin="-6s" repeatCount="indefinite"/>
     </g>
   </g>
 
@@ -73,18 +142,22 @@
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="0.6s" repeatCount="indefinite"/>
 
-    <!-- curly red hair (back), sways a little -->
+    <!-- long wavy black hair (back), sways -->
     <g>
-      <rect x="-22" y="-2" width="44" height="62" fill="#a82a1a"/>
-      <rect x="-26" y="6" width="8" height="8" fill="#c63a25"/>
-      <rect x="-26" y="22" width="8" height="8" fill="#c63a25"/>
-      <rect x="-26" y="38" width="8" height="8" fill="#c63a25"/>
-      <rect x="-22" y="54" width="8" height="8" fill="#c63a25"/>
-      <rect x="18" y="6" width="8" height="8" fill="#c63a25"/>
-      <rect x="18" y="22" width="8" height="8" fill="#c63a25"/>
-      <rect x="18" y="38" width="8" height="8" fill="#c63a25"/>
-      <rect x="14" y="54" width="8" height="8" fill="#c63a25"/>
-      <rect x="-4" y="54" width="8" height="8" fill="#c63a25"/>
+      <rect x="-22" y="-2" width="44" height="88" fill="#0d0d12"/>
+      <rect x="-26" y="10" width="8" height="14" fill="#0d0d12"/>
+      <rect x="-26" y="38" width="8" height="14" fill="#0d0d12"/>
+      <rect x="-26" y="66" width="8" height="14" fill="#0d0d12"/>
+      <rect x="18" y="24" width="8" height="14" fill="#0d0d12"/>
+      <rect x="18" y="52" width="8" height="14" fill="#0d0d12"/>
+      <rect x="18" y="78" width="8" height="12" fill="#0d0d12"/>
+      <rect x="-22" y="86" width="12" height="6" fill="#0d0d12"/>
+      <rect x="-2" y="86" width="12" height="6" fill="#0d0d12"/>
+      <rect x="12" y="86" width="10" height="4" fill="#0d0d12"/>
+      <rect x="-14" y="20" width="4" height="12" fill="#262633"/>
+      <rect x="-10" y="48" width="4" height="12" fill="#262633"/>
+      <rect x="6" y="34" width="4" height="12" fill="#262633"/>
+      <rect x="10" y="62" width="4" height="12" fill="#262633"/>
       <animateTransform attributeName="transform" type="rotate" values="2 0 0;-2 0 0;2 0 0" dur="1.2s" repeatCount="indefinite"/>
     </g>
 
@@ -115,32 +188,22 @@
 
     <!-- head -->
     <rect x="-16" y="0" width="32" height="32" fill="#f7c9a6"/>
-    <!-- curly hair front -->
-    <rect x="-16" y="0" width="32" height="8" fill="#c63a25"/>
-    <rect x="-16" y="8" width="8" height="4" fill="#c63a25"/>
-    <rect x="8" y="8" width="8" height="4" fill="#c63a25"/>
-    <rect x="-16" y="8" width="4" height="30" fill="#c63a25"/>
-    <rect x="12" y="8" width="4" height="30" fill="#c63a25"/>
-    <rect x="-20" y="-6" width="8" height="8" fill="#a82a1a"/>
-    <rect x="-8" y="-8" width="8" height="8" fill="#c63a25"/>
-    <rect x="4" y="-8" width="8" height="8" fill="#a82a1a"/>
-    <rect x="12" y="-6" width="8" height="8" fill="#c63a25"/>
-    <rect x="-20" y="16" width="8" height="8" fill="#a82a1a"/>
-    <rect x="-20" y="32" width="8" height="8" fill="#a82a1a"/>
-    <rect x="12" y="16" width="8" height="8" fill="#a82a1a"/>
-    <rect x="12" y="32" width="8" height="8" fill="#a82a1a"/>
+    <!-- hair front -->
+    <rect x="-16" y="0" width="32" height="8" fill="#0d0d12"/>
+    <rect x="-16" y="8" width="10" height="4" fill="#0d0d12"/>
+    <rect x="6" y="8" width="10" height="4" fill="#0d0d12"/>
+    <rect x="-16" y="8" width="5" height="34" fill="#0d0d12"/>
+    <rect x="11" y="8" width="5" height="34" fill="#0d0d12"/>
+    <rect x="-8" y="2" width="6" height="2" fill="#262633"/>
+    <rect x="4" y="2" width="6" height="2" fill="#262633"/>
     <!-- eyes with lashes -->
-    <rect x="-12" y="14" width="8" height="2" fill="#2b1a10"/>
+    <rect x="-12" y="14" width="8" height="2" fill="#000000"/>
     <rect x="-12" y="16" width="8" height="4" fill="#ffffff"/>
-    <rect x="-8" y="16" width="4" height="4" fill="#5b3a1e"/>
-    <rect x="4" y="14" width="8" height="2" fill="#2b1a10"/>
+    <rect x="-8" y="16" width="4" height="4" fill="#3b2415"/>
+    <rect x="4" y="14" width="8" height="2" fill="#000000"/>
     <rect x="4" y="16" width="8" height="4" fill="#ffffff"/>
-    <rect x="4" y="16" width="4" height="4" fill="#5b3a1e"/>
-    <!-- freckles, blush, smile -->
-    <rect x="-8" y="21" width="2" height="2" fill="#d98b6a"/>
-    <rect x="-4" y="22" width="2" height="2" fill="#d98b6a"/>
-    <rect x="4" y="22" width="2" height="2" fill="#d98b6a"/>
-    <rect x="8" y="21" width="2" height="2" fill="#d98b6a"/>
+    <rect x="4" y="16" width="4" height="4" fill="#3b2415"/>
+    <!-- blush + smile -->
     <rect x="-12" y="22" width="4" height="2" fill="#ff9aa8"/>
     <rect x="8" y="22" width="4" height="2" fill="#ff9aa8"/>
     <rect x="-4" y="26" width="8" height="2" fill="#c0575e"/>
