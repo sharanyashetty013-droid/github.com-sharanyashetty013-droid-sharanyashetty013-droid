@@ -73,56 +73,74 @@
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="0.6s" repeatCount="indefinite"/>
 
-    <!-- long red hair (back) -->
+    <!-- curly red hair (back), sways a little -->
     <g>
-      <rect x="-20" y="-2" width="40" height="70" fill="#3a2214"/>
-      <rect x="-20" y="60" width="12" height="8" fill="#4b2e1a"/>
-      <rect x="8" y="60" width="12" height="8" fill="#4b2e1a"/>
+      <rect x="-22" y="-2" width="44" height="62" fill="#a82a1a"/>
+      <rect x="-26" y="6" width="8" height="8" fill="#c63a25"/>
+      <rect x="-26" y="22" width="8" height="8" fill="#c63a25"/>
+      <rect x="-26" y="38" width="8" height="8" fill="#c63a25"/>
+      <rect x="-22" y="54" width="8" height="8" fill="#c63a25"/>
+      <rect x="18" y="6" width="8" height="8" fill="#c63a25"/>
+      <rect x="18" y="22" width="8" height="8" fill="#c63a25"/>
+      <rect x="18" y="38" width="8" height="8" fill="#c63a25"/>
+      <rect x="14" y="54" width="8" height="8" fill="#c63a25"/>
+      <rect x="-4" y="54" width="8" height="8" fill="#c63a25"/>
       <animateTransform attributeName="transform" type="rotate" values="2 0 0;-2 0 0;2 0 0" dur="1.2s" repeatCount="indefinite"/>
     </g>
 
     <!-- back arm -->
     <g>
       <rect x="-32" y="36" width="16" height="44" fill="#f0bd97"/>
-      <rect x="-32" y="36" width="16" height="12" fill="#a45ed6"/>
+      <rect x="-32" y="36" width="16" height="10" fill="#c92a38"/>
       <animateTransform attributeName="transform" type="rotate" values="30 -24 38;-30 -24 38;30 -24 38" dur="1.2s" repeatCount="indefinite"/>
     </g>
-    <!-- legs -->
+    <!-- legs: black pants -->
     <g>
-      <rect x="-16" y="80" width="16" height="48" fill="#f0bd97"/>
-      <rect x="-16" y="116" width="16" height="12" fill="#5a3b7a"/>
+      <rect x="-16" y="80" width="16" height="48" fill="#141414"/>
+      <rect x="-16" y="116" width="16" height="12" fill="#2b2b2b"/>
       <animateTransform attributeName="transform" type="rotate" values="-28 -8 80;28 -8 80;-28 -8 80" dur="1.2s" repeatCount="indefinite"/>
     </g>
     <g>
-      <rect x="0" y="80" width="16" height="48" fill="#f7c9a6"/>
-      <rect x="0" y="116" width="16" height="12" fill="#6c4a8f"/>
+      <rect x="0" y="80" width="16" height="48" fill="#1e1e1e"/>
+      <rect x="0" y="116" width="16" height="12" fill="#3a3a3a"/>
       <animateTransform attributeName="transform" type="rotate" values="28 8 80;-28 8 80;28 8 80" dur="1.2s" repeatCount="indefinite"/>
     </g>
 
-    <!-- top + skirt -->
-    <rect x="-16" y="32" width="32" height="44" fill="#b56ee8"/>
-    <rect x="-16" y="32" width="32" height="4" fill="#d29bf5"/>
-    <rect x="-20" y="68" width="40" height="22" fill="#ff8fc0"/>
-    <rect x="-20" y="84" width="40" height="6" fill="#ff6fa8"/>
+    <!-- red crop top, midriff, black pants waist -->
+    <rect x="-16" y="32" width="32" height="20" fill="#e63946"/>
+    <rect x="-16" y="32" width="32" height="4" fill="#ff6b78"/>
+    <rect x="-16" y="52" width="32" height="14" fill="#f7c9a6"/>
+    <rect x="-16" y="66" width="32" height="16" fill="#141414"/>
+    <rect x="-16" y="66" width="32" height="3" fill="#333333"/>
 
     <!-- head -->
     <rect x="-16" y="0" width="32" height="32" fill="#f7c9a6"/>
-    <rect x="-16" y="0" width="32" height="8" fill="#4b2e1a"/>
-    <rect x="-16" y="8" width="8" height="4" fill="#4b2e1a"/>
-    <rect x="8" y="8" width="8" height="4" fill="#4b2e1a"/>
-    <rect x="-16" y="8" width="4" height="30" fill="#4b2e1a"/>
-    <rect x="12" y="8" width="4" height="30" fill="#4b2e1a"/>
-    <!-- bow -->
-    <rect x="6" y="-6" width="14" height="10" fill="#ff4d94"/>
-    <rect x="10" y="-2" width="6" height="4" fill="#ffd1e6"/>
-    <!-- eyes -->
+    <!-- curly hair front -->
+    <rect x="-16" y="0" width="32" height="8" fill="#c63a25"/>
+    <rect x="-16" y="8" width="8" height="4" fill="#c63a25"/>
+    <rect x="8" y="8" width="8" height="4" fill="#c63a25"/>
+    <rect x="-16" y="8" width="4" height="30" fill="#c63a25"/>
+    <rect x="12" y="8" width="4" height="30" fill="#c63a25"/>
+    <rect x="-20" y="-6" width="8" height="8" fill="#a82a1a"/>
+    <rect x="-8" y="-8" width="8" height="8" fill="#c63a25"/>
+    <rect x="4" y="-8" width="8" height="8" fill="#a82a1a"/>
+    <rect x="12" y="-6" width="8" height="8" fill="#c63a25"/>
+    <rect x="-20" y="16" width="8" height="8" fill="#a82a1a"/>
+    <rect x="-20" y="32" width="8" height="8" fill="#a82a1a"/>
+    <rect x="12" y="16" width="8" height="8" fill="#a82a1a"/>
+    <rect x="12" y="32" width="8" height="8" fill="#a82a1a"/>
+    <!-- eyes with lashes -->
     <rect x="-12" y="14" width="8" height="2" fill="#2b1a10"/>
     <rect x="-12" y="16" width="8" height="4" fill="#ffffff"/>
-    <rect x="-8" y="16" width="4" height="4" fill="#8e44ad"/>
+    <rect x="-8" y="16" width="4" height="4" fill="#5b3a1e"/>
     <rect x="4" y="14" width="8" height="2" fill="#2b1a10"/>
     <rect x="4" y="16" width="8" height="4" fill="#ffffff"/>
-    <rect x="4" y="16" width="4" height="4" fill="#8e44ad"/>
-    <!-- blush + smile -->
+    <rect x="4" y="16" width="4" height="4" fill="#5b3a1e"/>
+    <!-- freckles, blush, smile -->
+    <rect x="-8" y="21" width="2" height="2" fill="#d98b6a"/>
+    <rect x="-4" y="22" width="2" height="2" fill="#d98b6a"/>
+    <rect x="4" y="22" width="2" height="2" fill="#d98b6a"/>
+    <rect x="8" y="21" width="2" height="2" fill="#d98b6a"/>
     <rect x="-12" y="22" width="4" height="2" fill="#ff9aa8"/>
     <rect x="8" y="22" width="4" height="2" fill="#ff9aa8"/>
     <rect x="-4" y="26" width="8" height="2" fill="#c0575e"/>
@@ -132,7 +150,7 @@
     <!-- front arm -->
     <g>
       <rect x="16" y="36" width="16" height="44" fill="#f7c9a6"/>
-      <rect x="16" y="36" width="16" height="12" fill="#b56ee8"/>
+      <rect x="16" y="36" width="16" height="10" fill="#e63946"/>
       <animateTransform attributeName="transform" type="rotate" values="-30 24 38;30 24 38;-30 24 38" dur="1.2s" repeatCount="indefinite"/>
     </g>
   </g>
