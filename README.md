@@ -1,5 +1,5 @@
 <h1 align="center">Hi Peeps out there, I'm Sharanyaaa shetty</h1>
-<h3 align="center">2nd-year CSE @ NMAMIT | Backend + Blockchain | Go · Solidity · Next.js</h3>
+<h3 align="center">2nd-year CSE @ NMAMIT | Backend + Blockchain | Go · Solidity </h3>
 
 - ### 🚀 Things I've built :Bitcoin privacy intelligence tool. Tracing what the chain thinks is anonymous [Satoshi trace](https://satoshitrace.vercel.app/)
 
