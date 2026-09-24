@@ -1,10 +1,10 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=200&section=header&text=Hey,%20I'm%20Sharanya%20👋&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=2nd-year%20CSE%20@%20NMAMIT&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:7c3aed,100:ec4899&height=230&section=header&text=Sharanya%20Shetty&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=Backend%20%2B%20Blockchain%20Forensics&descAlignY=62&descSize=20" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Backend+dev+%F0%9F%9B%A0%EF%B8%8F;Blockchain+forensics+%F0%9F%95%B5%EF%B8%8F;Smart+contract+tinkerer+%E2%9B%93%EF%B8%8F;DSA+grinder+%F0%9F%A7%A0" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=Backend+dev+%F0%9F%9B%A0%EF%B8%8F;Blockchain+forensics+%F0%9F%95%B5%EF%B8%8F;Smart+contract+tinkerer+%E2%9B%93%EF%B8%8F;DSA+grinder+%F0%9F%A7%A0" />
 </p>
 
-<h3 align="center">Backend + Blockchain | Go · Solidity · DSA</h3>
+<h3 align="center">2nd-year CSE @ NMAMIT | Go · Solidity · DSA</h3>
 
 ---
 
@@ -47,12 +47,22 @@
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sharanyashetty013-droid&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharanyashetty013-droid&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=sharanyashetty013-droid&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=sharanyashetty013-droid&theme=tokyonight&hide_border=true" />
+  <img src="https://ghchart.rshah.org/ec4899/sharanyashetty013-droid" width="90%" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0f172a&height=100&section=footer" width="100%"/>
+<p align="center">
+  <img src="https://img.shields.io/github/followers/sharanyashetty013-droid?style=for-the-badge&logo=github&color=7c3aed" />
+  <img src="https://img.shields.io/github/stars/sharanyashetty013-droid?style=for-the-badge&logo=github&color=ec4899" />
+</p>
+
+### 🧠 LeetCode
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/sharanya_shetty01?theme=dark&font=Fira%20Code&ext=heatmap" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ec4899,50:7c3aed,100:0d1117&height=80&section=footer" width="100%"/>
