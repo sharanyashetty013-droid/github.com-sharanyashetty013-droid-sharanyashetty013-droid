@@ -45,17 +45,19 @@
 ### 📊 GitHub stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=sharanyashetty013-droid&background=2b1d12&ring=5da130&fire=5da130&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7bc043&sideLabels=7bc043&dates=c9b28a&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=sharanyashetty013-droid&starting_year=2026&background=2b1d12&ring=5da130&fire=5da130&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7bc043&sideLabels=7bc043&dates=c9b28a&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/5da130/sharanyashetty013-droid" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sharanyashetty013-droid&bg_color=2b1d12&color=7bc043&line=5da130&point=ffffff&area=true&area_color=5da130&hide_border=true" width="95%" />
 </p>
 
 ### 🧠 LeetCode
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/sharanya_shetty01?theme=dark&font=Fira%20Code&ext=heatmap" />
+  <a href="https://leetcode.com/u/sharanya_shetty01/">
+    <img src="https://leetcard.jacoblin.cool/sharanya_shetty01?theme=dark&ext=heatmap" />
+  </a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:866043,100:5da130&height=60&section=footer" width="100%"/>
