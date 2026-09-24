@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <rect width="900" height="260" rx="14" fill="#0a0f0a"/>
+  <rect width="900" height="36" rx="14" fill="#111a11"/>
+  <rect y="22" width="900" height="14" fill="#111a11"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="18" r="6" fill="#27c93f"/>
+  <text x="450" y="23" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#6b7280">sharanya@dev: ~</text>
+
+  <g font-family="Fira Code, Consolas, monospace" font-size="20">
+    <g opacity="0">
+      <animate attributeName="opacity" to="1" begin="0.4s" dur="0.01s" fill="freeze"/>
+      <text x="30" y="90" fill="#39ff14">$ whoami</text>
+      <text x="30" y="118" fill="#e5e7eb">sharanya_shetty</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" to="1" begin="1.6s" dur="0.01s" fill="freeze"/>
+      <text x="30" y="160" fill="#39ff14">$ stack --list</text>
+      <text x="30" y="188" fill="#22d3ee">Go · Solidity · DSA (C++)</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" to="1" begin="2.8s" dur="0.01s" fill="freeze"/>
+      <text x="30" y="230" fill="#39ff14">$ now_building</text>
+      <text x="230" y="230" fill="#e5e7eb">blockchain forensics tools</text>
+      <rect x="520" y="214" width="12" height="20" fill="#39ff14">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <g transform="translate(700,80)">
+    <animateTransform attributeName="transform" type="translate" values="700,80;700,68;700,80" dur="1.4s" repeatCount="indefinite"/>
+    <line x1="60" y1="0" x2="60" y2="-22" stroke="#39ff14" stroke-width="3"/>
+    <circle cx="60" cy="-26" r="6" fill="#39ff14">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="15" y="0" width="90" height="70" rx="14" fill="#1f2937" stroke="#39ff14" stroke-width="3"/>
+    <circle cx="42" cy="32" r="9" fill="#39ff14">
+      <animate attributeName="ry" values="9;1;9" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="78" cy="32" r="9" fill="#39ff14"/>
+    <rect x="42" y="52" width="36" height="5" rx="2" fill="#22d3ee"/>
+    <rect x="30" y="76" width="60" height="50" rx="10" fill="#1f2937" stroke="#22d3ee" stroke-width="3"/>
+    <text x="60" y="108" text-anchor="middle" font-family="Fira Code, monospace" font-size="18" fill="#39ff14">{ }</text>
+  </g>
+</svg>
