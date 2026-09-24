@@ -1,5 +1,3 @@
-# sharanyaaa
-Hello Peeps out there!!!This is my profile
 <h1 align="center">Hi Peeps out there, I'm Sharanyaaa shetty</h1>
 <h3 align="center">2nd-year CSE @ NMAMIT | Backend + Blockchain | Go · Solidity · Next.js</h3>
 
